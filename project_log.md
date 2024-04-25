@@ -9,3 +9,7 @@ I realized that the spec asks me to match greedily and only print out the longes
 Apr 23
 
 My prefix extraction algorithm from parsing tree is not robust. An alternative is to retrieve the prefix from the NFA instead of the parsing tree.
+
+Apr 24
+
+Yalov suggests me using vector instead of hashmap.
