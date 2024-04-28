@@ -12,4 +12,8 @@ My prefix extraction algorithm from parsing tree is not robust. An alternative i
 
 Apr 24
 
-Yalov suggests me using vector instead of hashmap.
+Yalov suggests me using vector instead of hashmap. It turned out that using vector is slower than using hashmap.
+
+Apr 25
+
+I tried to change vector in my NFA class into hashmap, but it also slowed down the program.
