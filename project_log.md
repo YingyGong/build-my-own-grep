@@ -17,3 +17,7 @@ Yalov suggests me using vector instead of hashmap. It turned out that using vect
 Apr 25
 
 I tried to change vector in my NFA class into hashmap, but it also slowed down the program.
+
+Apr 28
+
+I finally noticed that my past code didn't handle the edge case where the last character alone matches to the regular expression.
